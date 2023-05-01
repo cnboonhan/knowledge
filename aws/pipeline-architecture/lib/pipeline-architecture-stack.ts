@@ -9,15 +9,15 @@ export class PipelineArchitectureStack extends cdk.Stack {
     const accountId = cdk.Stack.of(this).account;
 
     new aws_s3.Bucket(this, "artifactsBucket", {
-        bucketName: `artifacts-${accountId}`,
-        removalPolicy: cdk.RemovalPolicy.DESTROY,
-        autoDeleteObjects: true
+      bucketName: `artifacts-${accountId}`,
+      removalPolicy: cdk.RemovalPolicy.DESTROY,
+      autoDeleteObjects: true,
     });
 
-    new aws_codecommit.Repository(this, 'codeRepository', {
-        repositoryName: 'pipelineCodeRepository',
-        description: 'Example repository for code',
-        code: aws_codecommit.Code.fromZipFile(path.join(__dirname, 'code.zip'))
+    new aws_codecommit.Repository(this, "codeRepository", {
+      repositoryName: "pipelineCodeRepository",
+      description: "Example repository for code",
+      code: aws_codecommit.Code.fromZipFile(path.join(__dirname, "code.zip")),
     });
   }
 }
