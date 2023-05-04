@@ -48,3 +48,15 @@ def generate_aws_phrases(c):
         "actions": action_context
     }
     return output
+
+
+def generate_aws_prompts(phrases, client):
+    output = []
+    for command in phrases['commands']:
+        output.append(f"what does {command} do in AWS CLI for {client}?")
+    for word in phrases['words']:
+        output.append(f"what is {word} in AWS {client}?")
+    for action in phrases['actions'].keys():
+        for context in phrases['actions'][action]:
+            output.append(f"how to {action} {context} in AWS {client}?")
+    return output
