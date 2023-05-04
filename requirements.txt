@@ -1,0 +1,3 @@
+langchain
+textblob
+boto3
