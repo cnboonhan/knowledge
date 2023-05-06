@@ -1,0 +1,185 @@
+{
+    "client": "elasticbeanstalk",
+    "data": {
+        "commands": [
+            "abort_environment_update",
+            "apply_environment_managed_action",
+            "associate_environment_operations_role",
+            "can_paginate",
+            "check_dns_availability",
+            "close",
+            "compose_environments",
+            "create_application",
+            "create_application_version",
+            "create_configuration_template",
+            "create_environment",
+            "create_platform_version",
+            "create_storage_location",
+            "delete_application",
+            "delete_application_version",
+            "delete_configuration_template",
+            "delete_environment_configuration",
+            "delete_platform_version",
+            "describe_account_attributes",
+            "describe_application_versions",
+            "describe_applications",
+            "describe_configuration_options",
+            "describe_configuration_settings",
+            "describe_environment_health",
+            "describe_environment_managed_action_history",
+            "describe_environment_managed_actions",
+            "describe_environment_resources",
+            "describe_environments",
+            "describe_events",
+            "describe_instances_health",
+            "describe_platform_version",
+            "disassociate_environment_operations_role",
+            "generate_presigned_url",
+            "get_paginator",
+            "get_waiter",
+            "list_available_solution_stacks",
+            "list_platform_branches",
+            "list_platform_versions",
+            "list_tags_for_resource",
+            "rebuild_environment",
+            "request_environment_info",
+            "restart_app_server",
+            "retrieve_environment_info",
+            "swap_environment_cnames",
+            "terminate_environment",
+            "update_application",
+            "update_application_resource_lifecycle",
+            "update_application_version",
+            "update_configuration_template",
+            "update_environment",
+            "update_tags_for_resource",
+            "validate_configuration_settings"
+        ],
+        "words": [
+            "resource",
+            "environment",
+            "platform versions",
+            "environment cnames",
+            "configuration options",
+            "events",
+            "platform branches",
+            "application",
+            "environment update",
+            "configuration settings",
+            "environment managed actions",
+            "environment managed action history",
+            "environment managed action",
+            "environment health",
+            "app server",
+            "tags",
+            "environment resources",
+            "environments",
+            "platform version",
+            "account attributes",
+            "application version",
+            "environment operations role",
+            "application resource lifecycle",
+            "environment info",
+            "configuration template",
+            "applications",
+            "available solution stacks",
+            "dns availability",
+            "presigned url",
+            "storage location",
+            "environment configuration",
+            "instances health",
+            "application versions"
+        ],
+        "actions": {
+            "abort": [
+                "environment update"
+            ],
+            "apply": [
+                "environment managed action"
+            ],
+            "associate": [
+                "environment operations role"
+            ],
+            "check": [
+                "dns availability"
+            ],
+            "close": [],
+            "compose": [
+                "environments"
+            ],
+            "create": [
+                "configuration template",
+                "environment",
+                "platform version",
+                "application version",
+                "storage location",
+                "application"
+            ],
+            "delete": [
+                "configuration template",
+                "platform version",
+                "application version",
+                "environment configuration",
+                "application"
+            ],
+            "describe": [
+                "environments",
+                "platform version",
+                "configuration settings",
+                "account attributes",
+                "applications",
+                "environment managed actions",
+                "environment managed action history",
+                "configuration options",
+                "environment health",
+                "events",
+                "environment resources",
+                "instances health",
+                "application versions"
+            ],
+            "disassociate": [
+                "environment operations role"
+            ],
+            "generate": [
+                "presigned url"
+            ],
+            "list": [
+                "resource",
+                "platform versions",
+                "available solution stacks",
+                "tags",
+                "platform branches"
+            ],
+            "rebuild": [
+                "environment"
+            ],
+            "request": [
+                "environment info"
+            ],
+            "restart": [
+                "app server"
+            ],
+            "retrieve": [
+                "environment info"
+            ],
+            "swap": [
+                "environment cnames"
+            ],
+            "terminate": [
+                "environment"
+            ],
+            "update": [
+                "resource",
+                "configuration template",
+                "environment",
+                "application version",
+                "application resource lifecycle",
+                "tags",
+                "application"
+            ],
+            "validate": [
+                "configuration settings"
+            ]
+        }
+    }
+}

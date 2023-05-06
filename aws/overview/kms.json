@@ -1,0 +1,191 @@
+{
+    "client": "kms",
+    "data": {
+        "commands": [
+            "can_paginate",
+            "cancel_key_deletion",
+            "close",
+            "connect_custom_key_store",
+            "create_alias",
+            "create_custom_key_store",
+            "create_grant",
+            "create_key",
+            "decrypt",
+            "delete_alias",
+            "delete_custom_key_store",
+            "delete_imported_key_material",
+            "describe_custom_key_stores",
+            "describe_key",
+            "disable_key",
+            "disable_key_rotation",
+            "disconnect_custom_key_store",
+            "enable_key",
+            "enable_key_rotation",
+            "encrypt",
+            "generate_data_key",
+            "generate_data_key_pair",
+            "generate_data_key_pair_without_plaintext",
+            "generate_data_key_without_plaintext",
+            "generate_mac",
+            "generate_presigned_url",
+            "generate_random",
+            "get_key_policy",
+            "get_key_rotation_status",
+            "get_paginator",
+            "get_parameters_for_import",
+            "get_public_key",
+            "get_waiter",
+            "import_key_material",
+            "list_aliases",
+            "list_grants",
+            "list_key_policies",
+            "list_keys",
+            "list_resource_tags",
+            "list_retirable_grants",
+            "put_key_policy",
+            "re_encrypt",
+            "replicate_key",
+            "retire_grant",
+            "revoke_grant",
+            "schedule_key_deletion",
+            "sign",
+            "tag_resource",
+            "untag_resource",
+            "update_alias",
+            "update_custom_key_store",
+            "update_key_description",
+            "update_primary_region",
+            "verify",
+            "verify_mac"
+        ],
+        "words": [
+            "key description",
+            "custom key store",
+            "resource",
+            "encrypt",
+            "data key pair",
+            "key policies",
+            "mac",
+            "public key",
+            "import",
+            "key rotation status",
+            "plaintext",
+            "retirable grants",
+            "key deletion",
+            "key material",
+            "grants",
+            "primary region",
+            "keys",
+            "resource tags",
+            "aliases",
+            "key rotation",
+            "imported key material",
+            "data key",
+            "custom key stores",
+            "parameters",
+            "key policy",
+            "key",
+            "presigned url",
+            "grant",
+            "alias",
+            "random"
+        ],
+        "actions": {
+            "cancel": [
+                "key deletion"
+            ],
+            "close": [],
+            "connect": [
+                "custom key store"
+            ],
+            "create": [
+                "grant",
+                "alias",
+                "custom key store",
+                "key"
+            ],
+            "decrypt": [],
+            "delete": [
+                "alias",
+                "custom key store",
+                "imported key material"
+            ],
+            "describe": [
+                "custom key stores",
+                "key"
+            ],
+            "disable": [
+                "key rotation",
+                "key"
+            ],
+            "disconnect": [
+                "custom key store"
+            ],
+            "enable": [
+                "key rotation",
+                "key"
+            ],
+            "encrypt": [],
+            "generate": [
+                "data key pair",
+                "data key",
+                "plaintext",
+                "presigned url",
+                "mac",
+                "random"
+            ],
+            "get": [
+                "public key",
+                "import",
+                "key rotation status",
+                "parameters",
+                "key policy"
+            ],
+            "import": [
+                "key material"
+            ],
+            "list": [
+                "keys",
+                "retirable grants",
+                "aliases",
+                "resource tags",
+                "grants",
+                "key policies"
+            ],
+            "put": [
+                "key policy"
+            ],
+            "re": [
+                "encrypt"
+            ],
+            "replicate": [
+                "key"
+            ],
+            "retire": [
+                "grant"
+            ],
+            "revoke": [
+                "grant"
+            ],
+            "schedule": [
+                "key deletion"
+            ],
+            "sign": [],
+            "tag": [
+                "resource"
+            ],
+            "untag": [
+                "resource"
+            ],
+            "update": [
+                "key description",
+                "alias",
+                "custom key store",
+                "primary region"
+            ],
+            "verify": [
+                "mac"
+            ]
+        }
+    }
+}

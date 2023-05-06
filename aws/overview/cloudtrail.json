@@ -1,0 +1,162 @@
+{
+    "client": "cloudtrail",
+    "data": {
+        "commands": [
+            "add_tags",
+            "can_paginate",
+            "cancel_query",
+            "close",
+            "create_channel",
+            "create_event_data_store",
+            "create_trail",
+            "delete_channel",
+            "delete_event_data_store",
+            "delete_resource_policy",
+            "delete_trail",
+            "deregister_organization_delegated_admin",
+            "describe_query",
+            "describe_trails",
+            "generate_presigned_url",
+            "get_channel",
+            "get_event_data_store",
+            "get_event_selectors",
+            "get_import",
+            "get_insight_selectors",
+            "get_paginator",
+            "get_query_results",
+            "get_resource_policy",
+            "get_trail",
+            "get_trail_status",
+            "get_waiter",
+            "list_channels",
+            "list_event_data_stores",
+            "list_import_failures",
+            "list_imports",
+            "list_public_keys",
+            "list_queries",
+            "list_tags",
+            "list_trails",
+            "lookup_events",
+            "put_event_selectors",
+            "put_insight_selectors",
+            "put_resource_policy",
+            "register_organization_delegated_admin",
+            "remove_tags",
+            "restore_event_data_store",
+            "start_import",
+            "start_logging",
+            "start_query",
+            "stop_import",
+            "stop_logging",
+            "update_channel",
+            "update_event_data_store",
+            "update_trail"
+        ],
+        "words": [
+            "organization delegated admin",
+            "import failures",
+            "event selectors",
+            "resource policy",
+            "query",
+            "events",
+            "query results",
+            "channel",
+            "event data stores",
+            "import",
+            "public keys",
+            "channels",
+            "imports",
+            "queries",
+            "tags",
+            "logging",
+            "trails",
+            "event data store",
+            "insight selectors",
+            "trail status",
+            "trail",
+            "presigned url"
+        ],
+        "actions": {
+            "add": [
+                "tags"
+            ],
+            "cancel": [
+                "query"
+            ],
+            "close": [],
+            "create": [
+                "trail",
+                "channel",
+                "event data store"
+            ],
+            "delete": [
+                "resource policy",
+                "trail",
+                "channel",
+                "event data store"
+            ],
+            "deregister": [
+                "organization delegated admin"
+            ],
+            "describe": [
+                "trails",
+                "query"
+            ],
+            "generate": [
+                "presigned url"
+            ],
+            "get": [
+                "query results",
+                "channel",
+                "event data store",
+                "insight selectors",
+                "trail status",
+                "trail",
+                "import",
+                "event selectors",
+                "resource policy"
+            ],
+            "list": [
+                "event data stores",
+                "import failures",
+                "public keys",
+                "channels",
+                "imports",
+                "queries",
+                "tags",
+                "trails"
+            ],
+            "lookup": [
+                "events"
+            ],
+            "put": [
+                "resource policy",
+                "event selectors",
+                "insight selectors"
+            ],
+            "register": [
+                "organization delegated admin"
+            ],
+            "remove": [
+                "tags"
+            ],
+            "restore": [
+                "event data store"
+            ],
+            "start": [
+                "logging",
+                "import",
+                "query"
+            ],
+            "stop": [
+                "logging",
+                "import"
+            ],
+            "update": [
+                "trail",
+                "channel",
+                "event data store"
+            ]
+        }
+    }
+}

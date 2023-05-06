@@ -1,0 +1,229 @@
+{
+    "client": "guardduty",
+    "data": {
+        "commands": [
+            "accept_administrator_invitation",
+            "accept_invitation",
+            "archive_findings",
+            "can_paginate",
+            "close",
+            "create_detector",
+            "create_filter",
+            "create_ip_set",
+            "create_members",
+            "create_publishing_destination",
+            "create_sample_findings",
+            "create_threat_intel_set",
+            "decline_invitations",
+            "delete_detector",
+            "delete_filter",
+            "delete_invitations",
+            "delete_ip_set",
+            "delete_members",
+            "delete_publishing_destination",
+            "delete_threat_intel_set",
+            "describe_malware_scans",
+            "describe_organization_configuration",
+            "describe_publishing_destination",
+            "disable_organization_admin_account",
+            "disassociate_from_administrator_account",
+            "disassociate_from_master_account",
+            "disassociate_members",
+            "enable_organization_admin_account",
+            "generate_presigned_url",
+            "get_administrator_account",
+            "get_coverage_statistics",
+            "get_detector",
+            "get_filter",
+            "get_findings",
+            "get_findings_statistics",
+            "get_invitations_count",
+            "get_ip_set",
+            "get_malware_scan_settings",
+            "get_master_account",
+            "get_member_detectors",
+            "get_members",
+            "get_paginator",
+            "get_remaining_free_trial_days",
+            "get_threat_intel_set",
+            "get_usage_statistics",
+            "get_waiter",
+            "invite_members",
+            "list_coverage",
+            "list_detectors",
+            "list_filters",
+            "list_findings",
+            "list_invitations",
+            "list_ip_sets",
+            "list_members",
+            "list_organization_admin_accounts",
+            "list_publishing_destinations",
+            "list_tags_for_resource",
+            "list_threat_intel_sets",
+            "start_malware_scan",
+            "start_monitoring_members",
+            "stop_monitoring_members",
+            "tag_resource",
+            "unarchive_findings",
+            "untag_resource",
+            "update_detector",
+            "update_filter",
+            "update_findings_feedback",
+            "update_ip_set",
+            "update_malware_scan_settings",
+            "update_member_detectors",
+            "update_organization_configuration",
+            "update_publishing_destination",
+            "update_threat_intel_set"
+        ],
+        "words": [
+            "administrator invitation",
+            "coverage",
+            "resource",
+            "findings",
+            "ip set",
+            "members",
+            "publishing destination",
+            "invitations",
+            "invitations count",
+            "master account",
+            "publishing destinations",
+            "coverage statistics",
+            "detectors",
+            "findings statistics",
+            "malware scans",
+            "administrator account",
+            "sample findings",
+            "filters",
+            "organization admin account",
+            "member detectors",
+            "detector",
+            "threat intel set",
+            "tags",
+            "invitation",
+            "remaining free trial days",
+            "organization admin accounts",
+            "usage statistics",
+            "ip sets",
+            "threat intel sets",
+            "findings feedback",
+            "malware scan settings",
+            "organization configuration",
+            "filter",
+            "presigned url",
+            "malware scan",
+            "monitoring members"
+        ],
+        "actions": {
+            "accept": [
+                "invitation",
+                "administrator invitation"
+            ],
+            "archive": [
+                "findings"
+            ],
+            "close": [],
+            "create": [
+                "sample findings",
+                "ip set",
+                "publishing destination",
+                "filter",
+                "members",
+                "detector",
+                "threat intel set"
+            ],
+            "decline": [
+                "invitations"
+            ],
+            "delete": [
+                "ip set",
+                "invitations",
+                "filter",
+                "members",
+                "publishing destination",
+                "detector",
+                "threat intel set"
+            ],
+            "describe": [
+                "organization configuration",
+                "publishing destination",
+                "malware scans"
+            ],
+            "disable": [
+                "organization admin account"
+            ],
+            "disassociate": [
+                "master account",
+                "members",
+                "administrator account"
+            ],
+            "enable": [
+                "organization admin account"
+            ],
+            "generate": [
+                "presigned url"
+            ],
+            "get": [
+                "administrator account",
+                "findings",
+                "remaining free trial days",
+                "filter",
+                "ip set",
+                "members",
+                "invitations count",
+                "master account",
+                "member detectors",
+                "usage statistics",
+                "detector",
+                "coverage statistics",
+                "threat intel set",
+                "findings statistics",
+                "malware scan settings"
+            ],
+            "invite": [
+                "members"
+            ],
+            "list": [
+                "coverage",
+                "resource",
+                "findings",
+                "invitations",
+                "members",
+                "organization admin accounts",
+                "filters",
+                "publishing destinations",
+                "ip sets",
+                "detectors",
+                "tags",
+                "threat intel sets"
+            ],
+            "start": [
+                "monitoring members",
+                "malware scan"
+            ],
+            "stop": [
+                "monitoring members"
+            ],
+            "tag": [
+                "resource"
+            ],
+            "unarchive": [
+                "findings"
+            ],
+            "untag": [
+                "resource"
+            ],
+            "update": [
+                "organization configuration",
+                "ip set",
+                "filter",
+                "publishing destination",
+                "member detectors",
+                "detector",
+                "threat intel set",
+                "findings feedback",
+                "malware scan settings"
+            ]
+        }
+    }
+}

@@ -1,0 +1,164 @@
+{
+    "client": "codepipeline",
+    "data": {
+        "commands": [
+            "acknowledge_job",
+            "acknowledge_third_party_job",
+            "can_paginate",
+            "close",
+            "create_custom_action_type",
+            "create_pipeline",
+            "delete_custom_action_type",
+            "delete_pipeline",
+            "delete_webhook",
+            "deregister_webhook_with_third_party",
+            "disable_stage_transition",
+            "enable_stage_transition",
+            "generate_presigned_url",
+            "get_action_type",
+            "get_job_details",
+            "get_paginator",
+            "get_pipeline",
+            "get_pipeline_execution",
+            "get_pipeline_state",
+            "get_third_party_job_details",
+            "get_waiter",
+            "list_action_executions",
+            "list_action_types",
+            "list_pipeline_executions",
+            "list_pipelines",
+            "list_tags_for_resource",
+            "list_webhooks",
+            "poll_for_jobs",
+            "poll_for_third_party_jobs",
+            "put_action_revision",
+            "put_approval_result",
+            "put_job_failure_result",
+            "put_job_success_result",
+            "put_third_party_job_failure_result",
+            "put_third_party_job_success_result",
+            "put_webhook",
+            "register_webhook_with_third_party",
+            "retry_stage_execution",
+            "start_pipeline_execution",
+            "stop_pipeline_execution",
+            "tag_resource",
+            "untag_resource",
+            "update_action_type",
+            "update_pipeline"
+        ],
+        "words": [
+            "resource",
+            "pipeline executions",
+            "action types",
+            "pipeline",
+            "job",
+            "pipeline state",
+            "third party job success result",
+            "third party job details",
+            "action type",
+            "stage execution",
+            "job failure result",
+            "webhook",
+            "third party jobs",
+            "tags",
+            "third party job",
+            "webhooks",
+            "custom action type",
+            "pipelines",
+            "jobs",
+            "third party job failure result",
+            "stage transition",
+            "approval result",
+            "job details",
+            "pipeline execution",
+            "action executions",
+            "presigned url",
+            "job success result",
+            "action revision",
+            "third party"
+        ],
+        "actions": {
+            "acknowledge": [
+                "third party job",
+                "job"
+            ],
+            "close": [],
+            "create": [
+                "pipeline",
+                "custom action type"
+            ],
+            "delete": [
+                "webhook",
+                "pipeline",
+                "custom action type"
+            ],
+            "deregister": [
+                "webhook",
+                "third party"
+            ],
+            "disable": [
+                "stage transition"
+            ],
+            "enable": [
+                "stage transition"
+            ],
+            "generate": [
+                "presigned url"
+            ],
+            "get": [
+                "action type",
+                "pipeline",
+                "pipeline execution",
+                "job details",
+                "pipeline state",
+                "third party job details"
+            ],
+            "list": [
+                "webhooks",
+                "resource",
+                "pipeline executions",
+                "action types",
+                "pipelines",
+                "action executions",
+                "tags"
+            ],
+            "poll": [
+                "third party jobs",
+                "jobs"
+            ],
+            "put": [
+                "job failure result",
+                "approval result",
+                "third party job success result",
+                "webhook",
+                "job success result",
+                "action revision",
+                "third party job failure result"
+            ],
+            "register": [
+                "webhook",
+                "third party"
+            ],
+            "retry": [
+                "stage execution"
+            ],
+            "start": [
+                "pipeline execution"
+            ],
+            "stop": [
+                "pipeline execution"
+            ],
+            "tag": [
+                "resource"
+            ],
+            "untag": [
+                "resource"
+            ],
+            "update": [
+                "action type",
+                "pipeline"
+            ]
+        }
+    }
+}

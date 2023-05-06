@@ -1,0 +1,163 @@
+{
+    "client": "codebuild",
+    "data": {
+        "commands": [
+            "batch_delete_builds",
+            "batch_get_build_batches",
+            "batch_get_builds",
+            "batch_get_projects",
+            "batch_get_report_groups",
+            "batch_get_reports",
+            "can_paginate",
+            "close",
+            "create_project",
+            "create_report_group",
+            "create_webhook",
+            "delete_build_batch",
+            "delete_project",
+            "delete_report",
+            "delete_report_group",
+            "delete_resource_policy",
+            "delete_source_credentials",
+            "delete_webhook",
+            "describe_code_coverages",
+            "describe_test_cases",
+            "generate_presigned_url",
+            "get_paginator",
+            "get_report_group_trend",
+            "get_resource_policy",
+            "get_waiter",
+            "import_source_credentials",
+            "invalidate_project_cache",
+            "list_build_batches",
+            "list_build_batches_for_project",
+            "list_builds",
+            "list_builds_for_project",
+            "list_curated_environment_images",
+            "list_projects",
+            "list_report_groups",
+            "list_reports",
+            "list_reports_for_report_group",
+            "list_shared_projects",
+            "list_shared_report_groups",
+            "list_source_credentials",
+            "put_resource_policy",
+            "retry_build",
+            "retry_build_batch",
+            "start_build",
+            "start_build_batch",
+            "stop_build",
+            "stop_build_batch",
+            "update_project",
+            "update_project_visibility",
+            "update_report_group",
+            "update_webhook"
+        ],
+        "words": [
+            "projects",
+            "resource policy",
+            "report group trend",
+            "report groups",
+            "get projects",
+            "shared report groups",
+            "get builds",
+            "project",
+            "test cases",
+            "webhook",
+            "build batches",
+            "project cache",
+            "build batch",
+            "reports",
+            "code coverages",
+            "shared projects",
+            "build",
+            "source credentials",
+            "get report groups",
+            "builds",
+            "get build batches",
+            "delete builds",
+            "report",
+            "curated environment images",
+            "get reports",
+            "report group",
+            "presigned url",
+            "project visibility"
+        ],
+        "actions": {
+            "batch": [
+                "get build batches",
+                "delete builds",
+                "get projects",
+                "get reports",
+                "get builds",
+                "get report groups"
+            ],
+            "close": [],
+            "create": [
+                "report group",
+                "webhook",
+                "project"
+            ],
+            "delete": [
+                "build batch",
+                "report",
+                "project",
+                "resource policy",
+                "report group",
+                "webhook",
+                "source credentials"
+            ],
+            "describe": [
+                "code coverages",
+                "test cases"
+            ],
+            "generate": [
+                "presigned url"
+            ],
+            "get": [
+                "resource policy",
+                "report group trend"
+            ],
+            "import": [
+                "source credentials"
+            ],
+            "invalidate": [
+                "project cache"
+            ],
+            "list": [
+                "curated environment images",
+                "shared report groups",
+                "reports",
+                "projects",
+                "project",
+                "report group",
+                "shared projects",
+                "source credentials",
+                "report groups",
+                "builds",
+                "build batches"
+            ],
+            "put": [
+                "resource policy"
+            ],
+            "retry": [
+                "build batch",
+                "build"
+            ],
+            "start": [
+                "build batch",
+                "build"
+            ],
+            "stop": [
+                "build batch",
+                "build"
+            ],
+            "update": [
+                "report group",
+                "project visibility",
+                "webhook",
+                "project"
+            ]
+        }
+    }
+}
