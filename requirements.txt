@@ -1,4 +1,0 @@
-langchain
-textblob
-boto3
-textual
