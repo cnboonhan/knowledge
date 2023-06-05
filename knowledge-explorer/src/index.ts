@@ -1,36 +1,23 @@
 import { OpenAI } from "langchain/llms/openai";
+import { PromptTemplate } from "langchain/prompts";
+import { LLMChain } from "langchain/chains";
 
-// To enable streaming, we pass in `streaming: true` to the LLM constructor.
-// Additionally, we pass in a handler for the `handleLLMNewToken` event.
-const chat = new OpenAI({
-  streaming: true,
-  callbacks: [
-    {
-      handleLLMNewToken(token: string) {
-        process.stdout.write(token);
-      },
-    },
-  ],
+const apiKey = prompt();
+const input_prompt = prompt();
+const model = new OpenAI({ temperature: 0.9, openAIApiKey: apiKey });
+
+const template = input_prompt;
+const prompt_from_template = new PromptTemplate({
+  template: template,
+  inputVariables: ["product"],
 });
 
-await chat.call("Write me a song about sparkling water.");
-/*
-Verse 1
-Crystal clear and made with care
-Sparkling water on my lips, so refreshing in the air
-Fizzy bubbles, light and sweet
-My favorite beverage I can’t help but repeat
+const chain = new LLMChain({ llm: model, prompt: prompt_from_template });
 
-Chorus
-A toast to sparkling water, I’m feeling so alive
-Let’s take a sip, and let’s take a drive
-A toast to sparkling water, it’s the best I’ve had in my life
-It’s the best way to start off the night
+async function asyncCall() {
+  console.log("calling");
+  const result = await chain.call({ product: "colorful socks" });
+  console.log(result);
+}
 
-Verse 2
-It’s the perfect drink to quench my thirst
-It’s the best way to stay hydrated, it’s the first
-A few ice cubes, a splash of lime
-It will make any day feel sublime
-...
-*/
+asyncCall();
