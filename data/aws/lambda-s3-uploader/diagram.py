@@ -5,4 +5,4 @@ from diagrams.aws.integration import Eventbridge
 from diagrams.aws.compute import Lambda
 
 with Diagram(show=False):
-    APIGateway()  >> S3() >> Eventbridge("S3 Update") >> Lambda("import")
+    Lambda("Upload")  >> S3("Config Store") >> Eventbridge("S3 Update") >> Lambda("Apply ChangeSet")
