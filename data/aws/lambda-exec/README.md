@@ -1,6 +1,10 @@
-# lambda-s3-uploader
+# lambda-exec
+
+Example code to create a REST API for executing anything in AWS via `boto3`.
 
 ```
+pip3 install chalice
+
 # Generate Deploy and commit it to git
 chalice package deploy
 

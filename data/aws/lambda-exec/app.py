@@ -1,7 +1,7 @@
 from chalice import Chalice
 import boto3
 
-app = Chalice(app_name='lambda-s3-uploader')
+app = Chalice(app_name='lambda-exec')
 
 
 @app.route('/')
